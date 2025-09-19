@@ -17,8 +17,7 @@ A **Java-based backend service** designed to handle user creation and message ma
 
 Clone the repository to your local machine:
 
-```
-bash
+```bat
 git clone https://github.com/kangaroo512/users-messages-backend.git
 
 ```
