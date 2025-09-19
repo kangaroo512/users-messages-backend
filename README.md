@@ -22,7 +22,7 @@ bash
 git clone https://github.com/kangaroo512/users-messages-backend.git
 
 ```
-##Usage
+## Usage
 ### Creating a User
 ```
 // Initialize the service
@@ -43,7 +43,7 @@ users.forEach(user -> System.out.println(user.getUsername()));
 
 ```
 
-###Retrieving Messages for a User
+### Retrieving Messages for a User
 ```
 // Initialize the message service
 MessageService messageService = new MessageService();
