@@ -24,7 +24,7 @@ git clone https://github.com/kangaroo512/users-messages-backend.git
 ```
 ## Usage
 ### Creating a User
-```
+```java
 // Initialize the service
 UserService userService = new UserService();
 
@@ -34,7 +34,7 @@ userService.createUser(newUser);
 
 ```
 ### Searching of a User
-```
+```java
 // Search users by a keyword
 List<User> users = userService.searchUsers("searchTerm");
 
@@ -44,7 +44,7 @@ users.forEach(user -> System.out.println(user.getUsername()));
 ```
 
 ### Retrieving Messages for a User
-```
+```java
 // Initialize the message service
 MessageService messageService = new MessageService();
 
